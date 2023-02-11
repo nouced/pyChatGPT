@@ -39,7 +39,7 @@ chatgpt_chats_list_first_node = (
     '//div[substring(@class, string-length(@class) - string-length("text-sm") + 1)  = "text-sm"]//a',
 )
 
-chatgpt_chat_url = 'https://chat.openai.com/chat'
+chatgpt_chat_url = 'https://chat.openai.com/chat?model=text-davinci-002-render-sha'
 
 
 class ChatGPT:
